@@ -40,7 +40,7 @@ result = pd.DataFrame(dict1);
 
 print(result['age']);
 print(result[result['age'] > 22])
-print("--------------")
+print("--------------*")
 #fetching the data frame with height values where age is > 22
 
 print(result['height'][result['age']>22])
